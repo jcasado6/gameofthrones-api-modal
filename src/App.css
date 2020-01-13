@@ -1,0 +1,73 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 5px;
+  background-image: url('./bbsmoke.jpg');
+  border: green 5px solid;
+}
+
+.character-name {
+ color: yellowgreen;
+}
+
+.nav {
+  background-color: black;
+  color: yellowgreen;
+  height: 15vh;
+  text-align: center;
+}
+
+.first-title {
+  font-size: 30px;
+  margin: 0;
+}
+
+.second-title {
+  font-size: 30px;
+  margin: 0;
+  margin-right: 40px;
+}
+
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: cover;
+  height: cover;
+  padding: 10px;
+  z-index: 1;
+}
+
+.close {
+  color: black;
+  float: right; 
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.modal-main {
+  position: fixed;
+  background-image: url('./bbsmoke.jpg');
+  width: 50%;
+  height: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 5px solid greenyellow;
+  color: aliceblue;
+}
+
+.images {
+  border: 5px solid yellowgreen;
+  height: 60vh;
+  width: 30vw;
+}
+
+.modal-image {
+  border: 2px solid yellowgreen;
+  height: 40vh;
+  width: 15vw;
+}
