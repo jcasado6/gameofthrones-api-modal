@@ -17,10 +17,10 @@ class Modal extends Component {
     return (
       <div className="modal">
         <div className="modal-main"> 
-        <span className="close" >
+        <div className="close" >
           &times;
-        </span>
-          <h1 >{this.props.name}</h1>
+        </div>
+          <h1 className='actor-name'>{this.props.name}</h1>
           <div>
             <img
               className="modal-image"

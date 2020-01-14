@@ -42,10 +42,11 @@
 }
 
 .close {
-  color: black;
+  color: white;
   float: right; 
-  font-size: 40px;
+  font-size: 60px;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .modal-main {
@@ -70,4 +71,8 @@
   border: 2px solid yellowgreen;
   height: 40vh;
   width: 15vw;
+}
+
+.actor-name{
+  padding-left: 45px;
 }
